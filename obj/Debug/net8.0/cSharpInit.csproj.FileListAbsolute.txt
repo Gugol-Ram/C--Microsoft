@@ -1,0 +1,14 @@
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.AssemblyInfoInputs.cache
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.AssemblyInfo.cs
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.csproj.CoreCompileInputs.cache
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\bin\Debug\net8.0\cSharpInit.exe
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\bin\Debug\net8.0\cSharpInit.deps.json
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\bin\Debug\net8.0\cSharpInit.runtimeconfig.json
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\bin\Debug\net8.0\cSharpInit.dll
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\bin\Debug\net8.0\cSharpInit.pdb
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.dll
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\refint\cSharpInit.dll
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.pdb
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.genruntimeconfig.cache
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\ref\cSharpInit.dll
