@@ -12,3 +12,4 @@ C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\n
 C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.pdb
 C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.genruntimeconfig.cache
 C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\ref\cSharpInit.dll
+C:\Users\rami_\OneDrive\Desktop\PROGRAMACION\LENGUAJES\C#\cSharpInit\obj\Debug\net8.0\cSharpInit.sourcelink.json
