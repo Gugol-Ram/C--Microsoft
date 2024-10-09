@@ -21,7 +21,6 @@ Console.WriteLine("Second decrement: " + value);
 
 value--;
 Console.WriteLine("Third decrement: " + value);
-*/
 
 int value = 1;
 value++;
@@ -44,3 +43,27 @@ Console.WriteLine($@"First option: {msg1 + Math.Round(((fahrenheit - decr) * fra
 Console.WriteLine($@"2nd option: { msg1 + ((fahrenheit -= 32) * fraccion) + msg2 }");
 Console.WriteLine($@"2nd option: {msg1 + ((fahrenheit -= 0) * fraccion).ToString("0.0") + msg2}");//formateo la salida para mostrar solo un decimal. consideracion extra se modificó '-=0' ya que sino vuelve a restar
 
+//Solucion sugerida
+int fahrenheit2 = 94;
+decimal celsius = (fahrenheit2 - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
+
+*/
+
+/*
+int result = 3 + 1 * 5 / 2;
+Console.WriteLine(result); //resultado = 5
+Primero se evalúan la multiplicación y la división, ya que tienen la mayor precedencia:
+
+    1 * 5 = 5
+    Luego, se divide ese resultado por 2: 5 / 2.
+
+División entre enteros:
+
+    Como estamos trabajando con enteros (int), la división truncará la parte decimal. Entonces, 5 / 2 = 2 (en lugar de 2.5, se trunca a 2).
+
+Finalmente, se suma 3:
+
+    3 + 2 = 5.
+*/
+Console.WriteLine($"Windows " + 7 + 4);
