@@ -121,10 +121,11 @@ decimal jeongScore = (decimal) jeongSum / currentAssignments;
 // Console.WriteLine("Nicolas: " + nicolasSum);
 // Console.WriteLine("Zahirah: " + zahirahSum);
 // Console.WriteLine("Jeong: " + jeongSum);
-Console.WriteLine("Sophia: " + sophiaScore);
-Console.WriteLine("Nicolas: " + nicolasScore);
-Console.WriteLine("Zahirah: " + zahirahScore);
-Console.WriteLine("Jeong: " + jeongScore);
-
+Console.WriteLine("Student\t\tCalification\n"); //5.-(nueva linea)
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA"); //5.- t: tabulacion/alinear columna
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
 // 4.- Obtener el promedio para c/u
 // declaro las variables tipo decimal, HACERLO POR ENCIMA del Console.Writeline anterior
+// 5.-Darle formato mediante secuenciasde escape
