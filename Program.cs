@@ -121,11 +121,41 @@ decimal jeongScore = (decimal) jeongSum / currentAssignments;
 // Console.WriteLine("Nicolas: " + nicolasSum);
 // Console.WriteLine("Zahirah: " + zahirahSum);
 // Console.WriteLine("Jeong: " + jeongSum);
+/*
 Console.WriteLine("Student\t\tCalification\n"); //5.-(nueva linea)
 Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA"); //5.- t: tabulacion/alinear columna
 Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
 Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
 Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+*/
 // 4.- Obtener el promedio para c/u
 // declaro las variables tipo decimal, HACERLO POR ENCIMA del Console.Writeline anterior
 // 5.-Darle formato mediante secuenciasde escape
+
+//########################################################
+//Proyecto 2. calificacion y promedio creditos cursos
+//cursos del alumno 1
+string studentName = "Sophia Johnson";
+string course1Name = "English 101";
+string course2Name = "Algebra 101";
+string course3Name = "Biology 101";
+string course4Name = "Computer Science I";
+string course5Name = "Psychology 101";
+
+//Creditos que otorga cada curso
+int course1Credit = 3;
+int course2Credit = 3;
+int course3Credit = 4;
+int course4Credit = 4;
+int course5Credit = 3;
+
+//equivalente en letras del numero de creditos(A=4,B=3)
+int gradeA = 4;
+int gradeB = 3;
+
+//Variables para almacenar las calificaciones de c/curso
+int course1Grade = gradeA;
+int course2Grade = gradeB;
+int course3Grade = gradeB;
+int course4Grade = gradeB;
+int course5Grade = gradeA;
