@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//EJECUTAR CODIGO: dotnet run
 Console.WriteLine("Hello, World!");
 /*
 //Incremento y decremento
@@ -159,3 +160,9 @@ int course2Grade = gradeB;
 int course3Grade = gradeB;
 int course4Grade = gradeB;
 int course5Grade = gradeA;
+//nombre del curso + calificacion
+Console.WriteLine($"{course1Name} {course1Grade}");
+Console.WriteLine($"{course2Name} {course2Grade}");
+Console.WriteLine($"{course3Name} {course3Grade}");
+Console.WriteLine($"{course4Name} {course4Grade}");
+Console.WriteLine($"{course5Name} {course5Grade}");
