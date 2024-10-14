@@ -187,4 +187,6 @@ Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
 Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
 Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
 
+Console.WriteLine($@"puntos de Grado: {totalGradePoints}
+creditos totales: {totalCreditHours}");
 // Los puntos de calificación obtenidos para un curso equivalen a:número de créditos de ese curso * calificación obtenida
