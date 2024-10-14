@@ -155,14 +155,27 @@ int gradeA = 4;
 int gradeB = 3;
 
 //Variables para almacenar las calificaciones de c/curso
-int course1Grade = gradeA;
-int course2Grade = gradeB;
-int course3Grade = gradeB;
-int course4Grade = gradeB;
-int course5Grade = gradeA;
-//nombre del curso + calificacion
-Console.WriteLine($"{course1Name} {course1Grade}");
-Console.WriteLine($"{course2Name} {course2Grade}");
-Console.WriteLine($"{course3Name} {course3Grade}");
-Console.WriteLine($"{course4Name} {course4Grade}");
-Console.WriteLine($"{course5Name} {course5Grade}");
+int course1Grade = gradeA;//4
+int course2Grade = gradeB;//3
+int course3Grade = gradeB;//3
+int course4Grade = gradeB;//3
+int course5Grade = gradeA;//4
+
+//inicializando hs credito
+int totalCreditHours = 0;
+
+//sumando todas las hs creditos
+totalCreditHours += course1Credit;
+totalCreditHours += course2Credit;
+totalCreditHours += course3Credit;
+totalCreditHours += course4Credit;
+totalCreditHours += course5Credit;
+
+//nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso
+Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
+Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
+Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
+Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
+Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
+
+// Los puntos de calificación obtenidos para un curso equivalen a:número de créditos de ese curso * calificación obtenida
