@@ -171,6 +171,15 @@ totalCreditHours += course3Credit;
 totalCreditHours += course4Credit;
 totalCreditHours += course5Credit;
 
+//inicializando total puntos obtenidos
+int totalGradePoints = 0;
+
+totalGradePoints += course1Credit * course1Grade;
+totalGradePoints += course2Credit * course2Grade;
+totalGradePoints += course3Credit * course3Grade;
+totalGradePoints += course4Credit * course4Grade;
+totalGradePoints += course5Credit * course5Grade;
+
 //nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso
 Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
 Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
