@@ -192,17 +192,27 @@ int firstDigit = (int) ( gradePointAverage * 10) % 10;
 //obtener 2do digito luego de la coma
 int secondDigit = (int) ( gradePointAverage * 100) % 10;
 
-//nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso
+//Agregar nombre del estudiante a las salidas
+Console.WriteLine($"Student: {studentName}\n");//\n para agregar una linea vacia
+//encabezado info del curso:
+Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
+//nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso. Actualizado con secuencias de escape
+Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t\t{course1Credit}");
+Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t\t{course2Credit}");
+Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t\t{course3Credit}");
+Console.WriteLine($"{course4Name}\t\t{course4Grade}\t\t{course4Credit}");
+Console.WriteLine($"{course5Name}\t\t\t{course5Grade}\t\t{course5Credit}");
+/*
 Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
 Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
 Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
 Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
-Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
-Console.WriteLine("");
+Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}\n");
+*/
+// Console.WriteLine("");
 
-Console.WriteLine($@"puntos de Grado: {totalGradePoints}
-creditos totales: {totalCreditHours}");
-Console.WriteLine();
-Console.WriteLine($"Final GPA(full decimal): {gradePointAverage}");
+Console.WriteLine($"puntos de Grado:\t\t{totalGradePoints}\n");
+Console.WriteLine($"creditos totales:\t\t\t\t{totalCreditHours}\n");
+Console.WriteLine($"\nFinal GPA(full decimal):\t\t\t {gradePointAverage}");
 Console.WriteLine($"Final GPA(2 decimal hard way): {leadingDigit}.{firstDigit}{secondDigit}");
 Console.WriteLine($"Final GPA(2 decimal easy way): {gradePointAverage.ToString("0.00")} ");
