@@ -184,6 +184,13 @@ totalGradePoints += course5Credit * course5Grade;
 
 //Promedio
 decimal gradePointAverage = (decimal) totalGradePoints / totalCreditHours;
+//Ajuste decimal. Un poco rebuscado
+//obtener el primer digito
+int leadingDigit = (int) gradePointAverage;
+//obtener 1er digito luego de la coma
+int firstDigit = (int) ( gradePointAverage * 10) % 10;
+//obtener 2do digito luego de la coma
+int secondDigit = (int) ( gradePointAverage * 100) % 10;
 
 //nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso
 Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
@@ -196,4 +203,6 @@ Console.WriteLine("");
 Console.WriteLine($@"puntos de Grado: {totalGradePoints}
 creditos totales: {totalCreditHours}");
 Console.WriteLine();
-Console.WriteLine($"Final GPA: {gradePointAverage}");
+Console.WriteLine($"Final GPA(full decimal): {gradePointAverage}");
+Console.WriteLine($"Final GPA(2 decimal hard way): {leadingDigit}.{firstDigit}{secondDigit}");
+Console.WriteLine($"Final GPA(2 decimal easy way): {gradePointAverage.ToString("0.00")} ");
