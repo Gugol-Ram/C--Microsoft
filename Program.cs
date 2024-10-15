@@ -174,11 +174,16 @@ totalCreditHours += course5Credit;
 //inicializando total puntos obtenidos
 int totalGradePoints = 0;
 
+// Los puntos de calificación obtenidos para un curso equivalen a:número de créditos de ese curso * calificación obtenida
 totalGradePoints += course1Credit * course1Grade;
 totalGradePoints += course2Credit * course2Grade;
 totalGradePoints += course3Credit * course3Grade;
 totalGradePoints += course4Credit * course4Grade;
 totalGradePoints += course5Credit * course5Grade;
+
+
+//Promedio
+decimal gradePointAverage = (decimal) totalGradePoints / totalCreditHours;
 
 //nombre del curso + calificacion obtenida + hs credito que otorga cada curso de cada curso
 Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
@@ -186,7 +191,9 @@ Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
 Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
 Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
 Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
+Console.WriteLine("");
 
 Console.WriteLine($@"puntos de Grado: {totalGradePoints}
 creditos totales: {totalCreditHours}");
-// Los puntos de calificación obtenidos para un curso equivalen a:número de créditos de ese curso * calificación obtenida
+Console.WriteLine();
+Console.WriteLine($"Final GPA: {gradePointAverage}");
